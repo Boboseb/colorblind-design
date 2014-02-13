@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="1" height="1" version="1.1" 
+xmlns="http://www.w3.org/2000/svg" 
+xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <filter id="grey">
+      <feColorMatrix values="0.299 0.587 0.114 0 0
+                             0.299 0.587 0.114 0 0
+                             0.299 0.587 0.114 0 0
+                             0     0     0     1 0"/>
+    </filter>
+    <filter id="proto">
+      <feColorMatrix values="0.111 0.888 0     0 0
+                             0.111 0.888 0     0 0
+                             0     0     1     0 0
+                             0     0     0     1 0"/>
+    </filter>
+    <filter id="deutero">
+      <feColorMatrix values="0.5   0.5   0     0 0
+                             0.5   0.5   0     0 0
+                             0     0     1     0 0
+                             0     0     0     1 0"/>
+    </filter>
+    <filter id="trito">
+      <feColorMatrix values="1     0     0     0 0
+                             0     1     0     0 0
+                             0.333 0.666 0     0 0
+                             0     0     0     1 0"/>
+    </filter>
+  </defs>
+</svg>
